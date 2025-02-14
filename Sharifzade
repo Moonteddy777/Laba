@@ -1,0 +1,40 @@
+def decimal_to_other(decimal_num):
+    binary = bin(decimal_num)[2:] 
+    octal = oct(decimal_num)[2:] 
+    hexadecimal = hex(decimal_num)[2:] 
+    print(f"Двоичное: {binary}")
+    print(f"Восьмеричное: {octal}")
+    print(f"Шестнадцатеричное: {hexadecimal}")
+def binary_to_decimal(binary_num): #2 в 10
+    try:
+        decimal = int(binary_num, 2)
+        print(f"Десятичное: {decimal}")
+    except ValueError:
+        print("Ошибка")
+def hexadecimal_to_decimal(hexadecimal_num): #16 в 10
+    try: #Шарифзаде ДКИП-281
+        decimal = int(hexadecimal_num, 16)
+        print(f"Десятичное: {decimal}")
+    except ValueError:
+        print("Ошибка")
+while True:
+    print("\nВыберите операцию:")
+    print("1. Десятичное в другие системы")
+    print("2. Двоичное в десятичное")
+    print("3. Шестнадцатеричное в десятичное")
+
+    choice = input("Введите номер операции: ")
+    if choice == '1':
+        try:
+            decimal_num = int(input("Введите десятичное число: "))
+            decimal_to_other(decimal_num)
+        except ValueError:
+            print("Ошибка")
+    elif choice == '2':
+        binary_num = input("Введите двоичное число: ")
+        binary_to_decimal(binary_num)
+    elif choice == '3':
+        hexadecimal_num = input("Введите шестнадцатеричное число: ")
+        hexadecimal_to_decimal(hexadecimal_num)
+    else:
+        print("Ошибка")
