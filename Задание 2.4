@@ -1,0 +1,25 @@
+def Sarifzade(var):
+    if isinstance(var, int):
+        byte_repr = var.to_bytes((var.bit_length() + 7) // 8, byteorder='little', signed=True)
+    elif isinstance(var, float):
+        import struct
+        byte_repr = struct.pack('d', var)  
+    elif isinstance(var, str):
+        byte_repr = var.encode('utf-8')
+    else:
+        byte_repr = bytes(var)
+    hex_repr = ' '.join(f'{byte:02x}' for byte in byte_repr)
+    print(f"{type(var).__name__}: {hex_repr}")
+integer_var = 100
+long_var = 10000000000 
+byte_var = 255
+float_var = 3.14
+double_var = 2.718281828459
+string_var = "Hello, World!"
+print("Побайтовое представление переменных:")
+Sarifzade(integer_var)
+Sarifzade(long_var)
+Sarifzade(byte_var)
+Sarifzade(float_var)
+Sarifzade(double_var)
+Sarifzade(string_var)
