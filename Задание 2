@@ -1,0 +1,31 @@
+def decimal_to_binary(decimal_number): #Шарифзаде Гюлар ДКИП-281
+    # Разделим число на целую и дробную части
+    integer_part = int(decimal_number)
+    fractional_part = decimal_number - integer_part
+
+    # Перевод целой части в двоичную
+    binary_integer = ""
+    if integer_part == 0:
+        binary_integer = "0"
+    else:
+        while integer_part > 0:
+            binary_integer = str(integer_part % 2) + binary_integer
+            integer_part //= 2
+
+    # Перевод дробной части в двоичную
+    binary_fractional = ""
+    while fractional_part > 0:
+        fractional_part *= 2
+        bit = int(fractional_part)  # Берём только целую часть
+        binary_fractional += str(bit)
+        fractional_part -= bit  # Убираем целую часть
+        # Ограничиваем количество цифр дробной части для предотвращения зацикливания
+        if len(binary_fractional) > 10:  # Можно изменить на другое значение
+            break
+    # Объединяем целую и дробную части
+    return binary_integer + '.' + binary_fractional if binary_fractional else binary_integer
+
+# Пример использования
+number = 10.625
+binary_representation = decimal_to_binary(number)
+print(f"Десятичное число {number} в двоичном представлении: {binary_representation}")
