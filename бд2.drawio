@@ -1086,13 +1086,13 @@
             <mxPoint x="190" y="2980" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PyMiiZPNKYhetu3HNUg0-222" value="А2.1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="PyMiiZPNKYhetu3HNUg0-222" value="А4.1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="265" y="3130" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="PyMiiZPNKYhetu3HNUg0-223" value="А2.2" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="PyMiiZPNKYhetu3HNUg0-223" value="А4.2" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="485" y="3220" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="PyMiiZPNKYhetu3HNUg0-224" value="А2.3" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="PyMiiZPNKYhetu3HNUg0-224" value="А4.3" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="715" y="3310" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PyMiiZPNKYhetu3HNUg0-225" value="Шарифзаде&lt;div&gt;Гюлар&lt;/div&gt;&lt;div&gt;ДКИП-381&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -1142,6 +1142,18 @@
         </mxCell>
         <mxCell id="PyMiiZPNKYhetu3HNUg0-252" value="Сетевое&amp;nbsp;&lt;div&gt;оборудование&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
           <mxGeometry x="490" y="3290" as="geometry" />
+        </mxCell>
+        <mxCell id="PyMiiZPNKYhetu3HNUg0-253" value="А3.1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="240" y="2540" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PyMiiZPNKYhetu3HNUg0-254" value="А3.3" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="665" y="2750" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PyMiiZPNKYhetu3HNUg0-255" value="А3.2" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="410" y="2650" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PyMiiZPNKYhetu3HNUg0-257" value="А4" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="930" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
